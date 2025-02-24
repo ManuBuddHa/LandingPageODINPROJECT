@@ -1,30 +1,54 @@
 body{
    font-family: Roboto;
 }
+main{
+   margin: auto;
+   width: 60%;
+   background-color: #1f2937;
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 0;
+}
 header{
    background-color: #1f2937;
    color: #f9Faf8;
    display: flex;
    font-size: 24px;
-   margin: auto;
    align-items: center;
    height: 50px;
+   padding: 0px 100px 0px 100px;
+}
+.header{
+   width: 100%;
+   height: 100%;
+   margin-top: 50px;
+}
+.links{
+   font-size: 14px;
+   display: flex;
+   gap: 50px;
+   width: 600px;
+   background-color: #1f2937;
 }
 .hero{
    display: flex;
-   padding: 48px;
+   margin-top: 50px;
+   padding: 0px 100px 0px 100px;
+   justify-content: space-between;
+   margin-bottom: 50px;
 }
 .image{
-   width: 250px;
-   height: 50px;
-   background-color: #f9Faf8;
-   color:#1f2937;
+   width: 500px;
+   height: 220px;
+   background-color: #425b6a;
+   color:#f9Faf8;
    align-items: center;
    justify-content: center;
-   
+   display: flex;
+   margin-bottom: 50px;
+   margin-top: 30px;
 }
-.links a{
-   font-size: 14px;
+a{
    color: #e5e7eb;
    text-decoration: none;
 }
@@ -32,6 +56,81 @@ footer, .header, .hero{
    background-color: #1f2937;
    color: #f9Faf8;
 }
-footer{
+.frames{
+   height: 250px;
+   background-color: #f9Faf8;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
+.frame{
+   border: 2px solid #3882F6;
+   border-radius: 10%;
+   width: 150px;
+   height: 150px;
+   background-color: #f9Faf8;
+}
+h1{
+   color: #f9faf8;
+   font-size: 36px;
+   font-weight: 900;
+}
+#quote{
+   background-color: #e5e7eb;
+   padding: 50px;
+}
+.quote{
+   font-weight: lighter;
+   font-size: 36px;
+   color: #1f2937;
+   text-align: center;
+   width: 100%;
+}
+.quoter{
+   text-align: right;
+   font-size: 26px;
+   width: 700px;
+   margin: auto;
+}
+.action{
+   background-color: #3882F6;
+   width: 800px;
    height: 50px;
+   padding: 50px;
+   margin: 50px auto 50px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   color: #f9Faf8;
+   border-radius: 5px;
+}
+.actionbutton{
+   background-color: #3882F6;
+   border: 2px solid #f9Faf8;
+   color: #f9Faf8;
+   border-radius: 5px;
+}
+button{
+   width: 100px;
+   height: 30px;
+   font-weight: bold;
+}
+.top_button{
+   border-radius: 5px;
+   background-color: #3882F6;
+   color: #f9Faf8;
+   border: 2px solid #3882F6;
+}
+section{
+   background-color: #f9Faf8;
+}
+h2{
+   padding-top: 50px;
+}
+footer{
+   height: 100px;
+   align-content: center;
+   justify-content: center;
 }
